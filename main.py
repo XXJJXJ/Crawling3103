@@ -76,18 +76,18 @@ class Scrapper:
                 f.write(f"{s.response_time}, {s.geolocation}, {s.ip}, {s.url}\n")
 
     def get_ip(self, url: str):
-        '''
+        """
         This function returns the ip address of the url
-        '''
+        """
         hostname = urlparse(url).hostname
         ip = socket.gethostbyname(hostname)
         return ip
 
     def get_location(self, ip):
-        '''
+        """
         This function utilizes the ip-api API to find geolocation of ips.
         Might have chance of denial of service due to too high request rate
-        '''
+        """
 
         if ip == "":
             return "Country Not Found"
@@ -100,6 +100,7 @@ class Scrapper:
 
                 if response.get("status") != "success":
                     print(response)
+                    continue
             except Exception as e:
                 print(e)
                 continue
@@ -112,10 +113,10 @@ class Scrapper:
             return "Country Not Found"
 
     def run(self):
-        '''
+        """
         This is the main scrapper logic to be run on threads.
         They share the same SafeList and SafeSet
-        '''
+        """
 
         while not self.safe_list.is_empty():
             url = self.safe_list.pop()
