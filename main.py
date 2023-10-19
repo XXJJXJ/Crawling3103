@@ -19,7 +19,7 @@ class SafeList:
         with self.mutex:
             return self.list.pop()
 
-    def isEmpty(self):
+    def is_empty(self):
         return len(self.list) == 0
 
 
@@ -82,7 +82,7 @@ def get_ip(url: str):
 
 
 def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
-    while not ls.isEmpty():
+    while not ls.is_empty():
         url = ls.pop()
         start = time.time()
         try:
@@ -93,7 +93,7 @@ def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
             location = get_location(ip)
         except:
             print("Erroneous url: {}".format(url))
-        newUrls = []
+        new_urls = []
         soup = BeautifulSoup(resp.content, "html.parser")
         links = soup.select("a[href]")
         for link in links:
@@ -105,34 +105,36 @@ def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
                 continue
             url_string = "{}://{}".format(parsed.scheme, parsed.hostname)
             # print(url_string)
-            if not m.check(url_string) and url_string not in newUrls:
-                newUrls.append(url_string)
-        m.batch_insert(newUrls)
-        ls.batch_insert(newUrls)
+            if not m.check(url_string) and url_string not in new_urls:
+                new_urls.append(url_string)
+        m.batch_insert(new_urls)
+        ls.batch_insert(new_urls)
         w.write(Site(url, ip, location, time_taken))
         time.sleep(2)
 
-
-if __name__ == "__main__":
-    ls = SafeList()
-    m = SafeMap()
-    w = SafeWriter()
+def main():
+    safe_list = SafeList()
+    safe_map = SafeMap()
+    safe_writer = SafeWriter()
     # Initialize and read from a file of urls
     with open("initial.txt", "r") as f:
         urls = f.read().splitlines()
-        ls.batch_insert(urls)
-        m.batch_insert(urls)
+        safe_list.batch_insert(urls)
+        safe_map.batch_insert(urls)
 
     # print("Starting URLs:\n")
     # print(urls)
     # initialize threads and start them
-    threadList = []
+    thread_list = []
     for i in range(3):
-        thread = threading.Thread(target=scrapper, args=(ls, m, w))
-        threadList.append(thread)
+        thread = threading.Thread(target=scrapper, args=(safe_list, safe_map, safe_writer))
+        thread_list.append(thread)
 
-    for td in threadList:
+    for td in thread_list:
         td.start()
 
-    for td in threadList:
+    for td in thread_list:
         td.join()
+
+if __name__ == "__main__":
+    main()
