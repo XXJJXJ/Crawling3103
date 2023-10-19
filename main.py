@@ -4,12 +4,17 @@ import requests
 import socket
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+import os
 
 
 class SafeList:
     def __init__(self):
         self.list = []
         self.mutex = threading.Lock()
+
+    def insert(self, item):
+        with self.mutex:
+            self.list.append(item)
 
     def batch_insert(self, item_list):
         with self.mutex:
@@ -23,18 +28,22 @@ class SafeList:
         return len(self.list) == 0
 
 
-class SafeMap:
+class SafeSet:
     def __init__(self):
-        self.map = {}
+        self._set = set()
         self.mutex = threading.Lock()
 
     def batch_insert(self, item_list):
         with self.mutex:
             for item in item_list:
-                self.map[item] = 0
+                self._set.add(item)
 
-    def check(self, item):
-        return item in self.map
+    def insert(self, item):
+        with self.mutex:
+            self._set.add(item)
+
+    def contains(self, item):
+        return item in self._set
 
 
 class Site:
@@ -45,96 +54,107 @@ class Site:
         self.response_time = resp_time
 
 
-class SafeWriter:
-    def __init__(self):
-        self.mutex = threading.Lock()
+class Scrapper:
+    def __init__(self, safe_set: SafeSet, safe_list: SafeList):
+        self.safe_set = safe_set
+        self.safe_list = safe_list
+
+        with open("scraped.txt", "w") as f:
+            f.write("")
 
     def write(self, s: Site):
-        with self.mutex:
+        mutex = threading.Lock()
+        with mutex:
             with open("scraped.txt", "a") as f:
-                f.write(
-                    "{},{},{},{}\n".format(s.response_time, s.geolocation, s.ip, s.url)
-                )
+                f.write(f"{s.response_time}, {s.geolocation}, {s.ip}, {s.url}\n")
 
+    def get_ip(self, url: str):
+        hostname = urlparse(url).hostname
+        ip = socket.gethostbyname(hostname)
+        return ip
 
-def get_location(ip):
-    if ip == "":
-        return "Country Not Found"
-    attempt = 0
-    country = None
-    # try 5 times
-    while country is None or attempt < 5:
-        response = requests.get(f"https://ipapi.co/{ip}/json/").json()
-        country = response.get("country_name")
-        attempt += 1
+    def get_location(self, ip):
+        if ip == "":
+            return "Country Not Found"
 
-    if country:
-        return country
-    else:
-        return "Country Not Found"
+        country = None
+        # try 5 times
+        for _ in range(5):
+            try:
+                response = requests.get(f"http://ip-api.com/json/{ip}").json()
 
+                if response.get("status") != "success":
+                    print(response)
+            except Exception as e:
+                print(e)
+                continue
+            country = response.get("country")
 
-def get_ip(url: str):
-    url = url.replace("https://", "", 1)
-    url = url.replace("http://", "", 1)
-    ip = socket.gethostbyname(url)
-    return ip
+            if country:
+                return country
+            time.sleep(1)
 
+            return "Country Not Found"
 
-def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
-    while not ls.is_empty():
-        url = ls.pop()
-        start = time.time()
-        try:
-            print(url)
-            resp = requests.get(url)
+    def run(self):
+        while not self.safe_list.is_empty():
+            url = self.safe_list.pop()
+
+            start = time.time()
+            try:
+                print(url)
+                resp = requests.get(url)
+            except Exception as e:
+                print(f"Erroneous url: {url}")
+                print(e)
+                continue
+
             time_taken = str(round((time.time() - start), 2))
-            ip = get_ip(url)
-            location = get_location(ip)
-        except:
-            print("Erroneous url: {}".format(url))
-        new_urls = []
-        soup = BeautifulSoup(resp.content, "html.parser")
-        links = soup.select("a[href]")
-        for link in links:
-            url_string = link["href"]
-            parsed = urlparse(url_string)
-            if parsed.scheme == "" or parsed.scheme is None:
-                continue
-            if parsed.hostname == "" or parsed.hostname is None:
-                continue
-            url_string = "{}://{}".format(parsed.scheme, parsed.hostname)
-            # print(url_string)
-            if not m.check(url_string) and url_string not in new_urls:
-                new_urls.append(url_string)
-        m.batch_insert(new_urls)
-        ls.batch_insert(new_urls)
-        w.write(Site(url, ip, location, time_taken))
-        time.sleep(2)
+            ip = self.get_ip(url)
+            location = self.get_location(ip)
+            self.write(Site(url, ip, location, time_taken))
+
+            soup = BeautifulSoup(resp.content, "html.parser")
+            links = soup.select("a[href]")
+            for link in links:
+                url_string = link["href"]
+                parsed = urlparse(url_string)
+                if parsed.hostname == "" or parsed.hostname is None:
+                    continue
+
+                if parsed.scheme == "" or parsed.scheme is None:
+                    continue
+
+                if not self.safe_set.contains(url_string):
+                    self.safe_set.insert(url_string)
+                    self.safe_list.insert(url_string)
+
+            time.sleep(2)
+
 
 def main():
+    safe_set = SafeSet()
     safe_list = SafeList()
-    safe_map = SafeMap()
-    safe_writer = SafeWriter()
+
+    number_threads = 3
+    thread_list = []
+
     # Initialize and read from a file of urls
     with open("initial.txt", "r") as f:
         urls = f.read().splitlines()
         safe_list.batch_insert(urls)
-        safe_map.batch_insert(urls)
+        safe_set.batch_insert(urls)
 
     # print("Starting URLs:\n")
     # print(urls)
     # initialize threads and start them
-    thread_list = []
-    for i in range(3):
-        thread = threading.Thread(target=scrapper, args=(safe_list, safe_map, safe_writer))
+    for _ in range(number_threads):
+        scrapper = Scrapper(safe_set, safe_list)
+        thread = threading.Thread(target=scrapper.run)
         thread_list.append(thread)
 
-    for td in thread_list:
-        td.start()
+        thread.start()
 
-    for td in thread_list:
-        td.join()
 
 if __name__ == "__main__":
     main()
