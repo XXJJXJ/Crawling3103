@@ -5,6 +5,7 @@ import socket
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
+
 class SafeList:
     def __init__(self):
         self.list = []
@@ -17,15 +18,16 @@ class SafeList:
     def pop(self):
         with self.mutex:
             return self.list.pop()
-    
+
     def isEmpty(self):
         return len(self.list) == 0
-        
+
+
 class SafeMap:
     def __init__(self):
         self.map = {}
         self.mutex = threading.Lock()
-    
+
     def batch_insert(self, item_list):
         with self.mutex:
             for item in item_list:
@@ -34,12 +36,14 @@ class SafeMap:
     def check(self, item):
         return item in self.map
 
+
 class Site:
     def __init__(self, url, ip, geolocation, resp_time):
         self.url = url
         self.ip = ip
         self.geolocation = geolocation
         self.response_time = resp_time
+
 
 class SafeWriter:
     def __init__(self):
@@ -48,7 +52,10 @@ class SafeWriter:
     def write(self, s: Site):
         with self.mutex:
             with open("scraped.txt", "a") as f:
-                f.write("{},{},{},{}\n".format(s.response_time, s.geolocation, s.ip, s.url))
+                f.write(
+                    "{},{},{},{}\n".format(s.response_time, s.geolocation, s.ip, s.url)
+                )
+
 
 def get_location(ip):
     if ip == "":
@@ -57,7 +64,7 @@ def get_location(ip):
     country = None
     # try 5 times
     while country is None or attempt < 5:
-        response = requests.get(f'https://ipapi.co/{ip}/json/').json()
+        response = requests.get(f"https://ipapi.co/{ip}/json/").json()
         country = response.get("country_name")
         attempt += 1
 
@@ -66,11 +73,13 @@ def get_location(ip):
     else:
         return "Country Not Found"
 
+
 def get_ip(url: str):
     url = url.replace("https://", "", 1)
     url = url.replace("http://", "", 1)
     ip = socket.gethostbyname(url)
     return ip
+
 
 def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
     while not ls.isEmpty():
@@ -88,13 +97,13 @@ def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
         soup = BeautifulSoup(resp.content, "html.parser")
         links = soup.select("a[href]")
         for link in links:
-            url_string = link['href']
+            url_string = link["href"]
             parsed = urlparse(url_string)
             if parsed.scheme == "" or parsed.scheme is None:
                 continue
             if parsed.hostname == "" or parsed.hostname is None:
                 continue
-            url_string = "{}://{}".format(parsed.scheme, parsed.hostname) 
+            url_string = "{}://{}".format(parsed.scheme, parsed.hostname)
             # print(url_string)
             if not m.check(url_string) and url_string not in newUrls:
                 newUrls.append(url_string)
@@ -103,7 +112,8 @@ def scrapper(ls: SafeList, m: SafeMap, w: SafeWriter):
         w.write(Site(url, ip, location, time_taken))
         time.sleep(2)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     ls = SafeList()
     m = SafeMap()
     w = SafeWriter()
@@ -123,6 +133,6 @@ if __name__ == '__main__':
 
     for td in threadList:
         td.start()
-    
+
     for td in threadList:
         td.join()
