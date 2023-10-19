@@ -4,10 +4,10 @@ import requests
 import socket
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-import os
 
 
 class SafeList:
+    '''This SafeList class is protected by a mutex, it stores a queue of URLs to be visited'''
     def __init__(self):
         self.list = []
         self.mutex = threading.Lock()
@@ -47,6 +47,7 @@ class SafeSet:
 
 
 class Site:
+    '''This is a class wrapper for a website and the information required by the assignment'''
     def __init__(self, url, ip, geolocation, resp_time):
         self.url = url
         self.ip = ip
@@ -145,8 +146,6 @@ def main():
         safe_list.batch_insert(urls)
         safe_set.batch_insert(urls)
 
-    # print("Starting URLs:\n")
-    # print(urls)
     # initialize threads and start them
     for _ in range(number_threads):
         scrapper = Scrapper(safe_set, safe_list)
