@@ -7,7 +7,10 @@ from urllib.parse import urlparse
 
 
 class SafeList:
-    '''This SafeList class is protected by a mutex, it stores a queue of URLs to be visited'''
+    """
+    This SafeList class is protected by a mutex, it stores a queue of URLs to be visited
+    """
+
     def __init__(self):
         self.list = []
         self.mutex = threading.Lock()
@@ -47,7 +50,10 @@ class SafeSet:
 
 
 class Site:
-    '''This is a class wrapper for a website and the information required by the assignment'''
+    """
+    This is a class wrapper for a website and the information required by the assignment
+    """
+
     def __init__(self, url, ip, geolocation, resp_time):
         self.url = url
         self.ip = ip
@@ -70,11 +76,19 @@ class Scrapper:
                 f.write(f"{s.response_time}, {s.geolocation}, {s.ip}, {s.url}\n")
 
     def get_ip(self, url: str):
+        '''
+        This function returns the ip address of the url
+        '''
         hostname = urlparse(url).hostname
         ip = socket.gethostbyname(hostname)
         return ip
 
     def get_location(self, ip):
+        '''
+        This function utilizes the ip-api API to find geolocation of ips.
+        Might have chance of denial of service due to too high request rate
+        '''
+
         if ip == "":
             return "Country Not Found"
 
@@ -98,6 +112,11 @@ class Scrapper:
             return "Country Not Found"
 
     def run(self):
+        '''
+        This is the main scrapper logic to be run on threads.
+        They share the same SafeList and SafeSet
+        '''
+
         while not self.safe_list.is_empty():
             url = self.safe_list.pop()
 
