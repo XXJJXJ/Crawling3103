@@ -93,8 +93,8 @@ class Scrapper:
             return "Country Not Found"
 
         country = None
-        # try 5 times
-        for _ in range(5):
+        # try 3 times
+        for _ in range(3):
             try:
                 response = requests.get(f"http://ip-api.com/json/{ip}").json()
 
