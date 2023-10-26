@@ -30,7 +30,7 @@ class SafeList:
 
     def pop(self):
         with self.mutex:
-            return self.list.pop()
+            return self.list.pop(0)
 
     def is_empty(self):
         return len(self.list) == 0
