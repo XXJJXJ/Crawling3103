@@ -10,17 +10,22 @@ class SafeList:
     """
     This SafeList class is protected by a mutex, it stores a queue of URLs to be visited
     """
-
-    def __init__(self):
+    def __init__(self, limit):
         self.list = []
+        self.limit = limit
+        self.count = 0
         self.mutex = threading.Lock()
 
     def insert(self, item):
         with self.mutex:
+            if self.count >= self.limit:
+                return
+            self.count += 1
             self.list.append(item)
 
     def batch_insert(self, item_list):
         with self.mutex:
+            self.count += len(item_list)
             self.list.extend(item_list)
 
     def pop(self):
@@ -32,17 +37,23 @@ class SafeList:
 
 
 class SafeSet:
-    def __init__(self):
+    def __init__(self, limit):
         self._set = set()
+        self.limit = limit
+        self.count = 0
         self.mutex = threading.Lock()
 
     def batch_insert(self, item_list):
         with self.mutex:
             for item in item_list:
+                self.count += 1
                 self._set.add(item)
 
-    def insert(self, item):
+    def insert(self, item):  
         with self.mutex:
+            if self.count >= self.limit:
+                return
+            self.count += 1
             self._set.add(item)
 
     def contains(self, item):
@@ -53,7 +64,6 @@ class Site:
     """
     This is a class wrapper for a website and the information required by the assignment
     """
-
     def __init__(self, url, ip, geolocation, resp_time):
         self.url = url
         self.ip = ip
@@ -88,7 +98,6 @@ class Scrapper:
         This function utilizes the ip-api API to find geolocation of ips.
         Might have chance of denial of service due to too high request rate
         """
-
         if ip == "":
             return "Country Not Found"
 
@@ -154,8 +163,9 @@ class Scrapper:
 
 
 def main():
-    safe_set = SafeSet()
-    safe_list = SafeList()
+    LIMIT = 3000
+    safe_set = SafeSet(LIMIT)
+    safe_list = SafeList(LIMIT)
 
     number_threads = 3
     thread_list = []
