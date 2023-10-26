@@ -72,9 +72,10 @@ class Site:
 
 
 class Scrapper:
-    def __init__(self, safe_set: SafeSet, safe_list: SafeList):
+    def __init__(self, id, safe_set: SafeSet, safe_list: SafeList):
         self.safe_set = safe_set
         self.safe_list = safe_list
+        self.id = id
 
         with open("scraped.txt", "w") as f:
             f.write("")
@@ -132,7 +133,7 @@ class Scrapper:
 
             start = time.time()
             try:
-                print(url)
+                print(f"scrapper: {self.id} scrapping {url}")
                 resp = requests.get(url)
             except Exception as e:
                 print(f"Erroneous url: {url}")
@@ -177,8 +178,8 @@ def main():
         safe_set.batch_insert(urls)
 
     # initialize threads and start them
-    for _ in range(number_threads):
-        scrapper = Scrapper(safe_set, safe_list)
+    for id in range(number_threads):
+        scrapper = Scrapper(id, safe_set, safe_list)
         thread = threading.Thread(target=scrapper.run)
         thread_list.append(thread)
 
