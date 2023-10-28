@@ -10,39 +10,50 @@ class SafeList:
     """
     This SafeList class is protected by a mutex, it stores a queue of URLs to be visited
     """
-
-    def __init__(self):
+    def __init__(self, limit):
         self.list = []
+        self.limit = limit
+        self.count = 0
         self.mutex = threading.Lock()
 
     def insert(self, item):
         with self.mutex:
+            if self.count >= self.limit:
+                return
+            self.count += 1
             self.list.append(item)
 
     def batch_insert(self, item_list):
         with self.mutex:
+            self.count += len(item_list)
             self.list.extend(item_list)
 
     def pop(self):
         with self.mutex:
-            return self.list.pop()
+            return self.list.pop(0)
 
     def is_empty(self):
         return len(self.list) == 0
 
 
 class SafeSet:
-    def __init__(self):
+    def __init__(self, limit):
         self._set = set()
+        self.limit = limit
+        self.count = 0
         self.mutex = threading.Lock()
 
     def batch_insert(self, item_list):
         with self.mutex:
             for item in item_list:
+                self.count += 1
                 self._set.add(item)
 
-    def insert(self, item):
+    def insert(self, item):  
         with self.mutex:
+            if self.count >= self.limit:
+                return
+            self.count += 1
             self._set.add(item)
 
     def contains(self, item):
@@ -53,7 +64,6 @@ class Site:
     """
     This is a class wrapper for a website and the information required by the assignment
     """
-
     def __init__(self, url, ip, geolocation, resp_time):
         self.url = url
         self.ip = ip
@@ -62,9 +72,10 @@ class Site:
 
 
 class Scrapper:
-    def __init__(self, safe_set: SafeSet, safe_list: SafeList):
+    def __init__(self, id, safe_set: SafeSet, safe_list: SafeList):
         self.safe_set = safe_set
         self.safe_list = safe_list
+        self.id = id
 
         with open("scraped.txt", "w") as f:
             f.write("")
@@ -88,7 +99,6 @@ class Scrapper:
         This function utilizes the ip-api API to find geolocation of ips.
         Might have chance of denial of service due to too high request rate
         """
-
         if ip == "":
             return "Country Not Found"
 
@@ -123,7 +133,7 @@ class Scrapper:
 
             start = time.time()
             try:
-                print(url)
+                print(f"scrapper: {self.id} scrapping {url}")
                 resp = requests.get(url)
             except Exception as e:
                 print(f"Erroneous url: {url}")
@@ -154,8 +164,9 @@ class Scrapper:
 
 
 def main():
-    safe_set = SafeSet()
-    safe_list = SafeList()
+    LIMIT = 3000
+    safe_set = SafeSet(LIMIT)
+    safe_list = SafeList(LIMIT)
 
     number_threads = 3
     thread_list = []
@@ -167,8 +178,8 @@ def main():
         safe_set.batch_insert(urls)
 
     # initialize threads and start them
-    for _ in range(number_threads):
-        scrapper = Scrapper(safe_set, safe_list)
+    for id in range(number_threads):
+        scrapper = Scrapper(id, safe_set, safe_list)
         thread = threading.Thread(target=scrapper.run)
         thread_list.append(thread)
 
