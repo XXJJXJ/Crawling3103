@@ -35,7 +35,6 @@ words = [
     for word in words
     # filter out words that contain digits
     if all(c not in word for c in string.digits)
-
 ]
 
 frequency_dict = Counter(words)
