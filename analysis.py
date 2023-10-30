@@ -33,9 +33,9 @@ words = np.hstack(urls)
 words = [
     word
     for word in words
-    if
-        # filter out words that contain digits
-        all(c not in word for c in string.digits)
+    # filter out words that contain digits
+    if all(c not in word for c in string.digits)
+
 ]
 
 frequency_dict = Counter(words)
