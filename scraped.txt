@@ -1,0 +1,465 @@
+0.07, Canada, 172.67.21.232, https://mothership.sg/
+0.07, Singapore, 199.232.44.81, https://www.bbc.com/
+0.18, Canada, 13.107.213.59, https://www.guardian.com.sg/
+0.08, Canada, 172.67.21.232, https://mothership.sg
+0.07, Canada, 104.22.34.123, https://mothership.sg/category/news/
+0.14, Canada, 104.22.34.123, https://www.mothership.sg/category/pe2023/
+0.1, Canada, 104.22.34.123, https://mothership.sg/category/nova/
+0.12, Canada, 172.67.21.232, https://mothership.sg/category/nova/celebrities
+0.08, Canada, 172.67.21.232, https://mothership.sg/category/nova/events/
+0.06, Canada, 104.22.35.123, https://mothership.sg/category/nova/food/
+0.07, Canada, 172.67.21.232, https://mothership.sg/category/nova/travels/
+0.09, Canada, 104.22.35.123, https://mothership.sg/videos
+0.1, Canada, 104.22.35.123, https://mothership.sg/category/abroad/
+0.1, Canada, 104.22.35.123, https://mothership.sg/category/firsthand
+0.13, Canada, 172.67.21.232, https://mothership.sg/category/environment
+0.06, Canada, 104.22.35.123, https://mothership.sg/category/parliament/
+0.57, Canada, 104.22.35.123, https://babelfish.mothership.sg/
+0.06, Canada, 172.67.21.232, https://mothership.sg/category/perspectives/
+0.06, Canada, 172.67.21.232, https://mothership.sg/category/community/history/
+0.07, Canada, 172.67.21.232, https://mothership.sg/tag/covid-19/
+0.16, Canada, 172.67.21.232, https://mothership.sg/tag/covid-19
+0.08, Canada, 104.22.35.123, https://mothership.sg/category/pe2023/
+0.11, Canada, 104.22.34.123, https://mothership.sg/category/nova/celebrities/
+0.15, Canada, 172.67.21.232, https://www.mothership.sg/tag/covid-19
+0.15, Canada, 172.67.21.232, https://www.mothership.sg/category/pe2023
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/jb-fatal-stabbing-details/
+0.07, Canada, 104.22.35.123, https://mothership.sg/2023/10/spore-votes-in-favour-un-resolution/
+0.06, Canada, 172.67.21.232, https://mothership.sg/2023/10/pm-lee-condolences-li-keqiang/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/peoples-alliance-non-formal-coalition/
+0.06, Canada, 104.22.35.123, https://mothership.sg/2023/10/shanmugam-nee-soon-gaza-fundraiser/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2023/10/woman-rests-her-feet-on-pole/
+0.11, Canada, 172.67.21.232, https://mothership.sg/2023/10/moh-roll-out-updated-covid-vaccines/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/jail-caning-kranji-rapist/
+0.07, Canada, 104.22.35.123, https://mothership.sg/2023/10/man-hides-money-around-singapore/
+0.15, Canada, 104.22.35.123, https://mothership.sg/about-us
+0.11, Canada, 172.67.21.232, https://mothership.sg/about-us#sales
+0.1, Canada, 172.67.21.232, https://mothership.sg/about-us#contact-us
+2.68, Canada, 172.67.21.232, https://mothership.sg/2023/10/man-loanshark-harassment-sumang/
+0.1, Canada, 104.22.35.123, https://mothership.sg/careers
+0.09, Singapore, 199.232.44.81, https://www.bbc.co.uk
+0.1, Canada, 172.67.21.232, https://mothership.sg/privacy-policy/
+0.09, Singapore, 199.232.44.81, https://www.bbc.co.uk/accessibility/
+0.35, Singapore, 199.232.44.81, https://www.bbc.co.uk/news
+2.68, United Kingdom, 212.58.244.93, https://account.bbc.com/account
+2.68, Singapore, 199.232.44.81, https://www.bbc.co.uk/notifications
+0.27, Singapore, 199.232.44.81, https://www.bbc.co.uk/weather
+0.3, Singapore, 199.232.44.81, https://www.bbc.co.uk/sport
+0.4, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer
+0.08, Singapore, 199.232.44.81, https://www.bbc.co.uk/sounds
+0.06, Singapore, 199.232.44.81, https://www.bbc.co.uk/bitesize
+0.09, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbeebies
+0.05, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbbc
+0.05, Singapore, 199.232.44.81, https://www.bbc.co.uk/food
+0.06, Singapore, 199.232.44.81, https://www.bbc.com/news
+0.09, Singapore, 199.232.44.81, https://www.bbc.com/sport
+0.12, Singapore, 199.232.44.81, https://www.bbc.com/worklife
+0.47, Singapore, 199.232.44.81, https://www.bbc.com/reel
+0.08, Singapore, 199.232.44.81, https://www.bbc.com/travel
+0.07, Singapore, 199.232.44.81, https://www.bbc.com/future
+0.08, Singapore, 199.232.44.81, https://www.bbc.com/culture
+0.09, Singapore, 199.232.44.81, https://www.bbc.co.uk/schedules/p00fzl9m
+0.1, Singapore, 199.232.44.81, https://www.bbc.com/weather
+0.79, United Kingdom, 212.58.249.185, https://search.bbc.co.uk/search?scope=all&destination=HOMEPAGE_GNL
+0.09, Singapore, 199.232.44.81, https://www.bbc.com/news/world-us-canada-67247726
+0.08, Singapore, 199.232.44.81, https://www.bbc.com/news/world-middle-east-67248449
+0.05, Singapore, 199.232.44.81, https://www.bbc.com/news/world-asia-66984050
+0.06, Singapore, 199.232.44.81, https://www.bbc.com/travel/article/20231026-the-road-less-travelled-to-the-serengeti
+0.23, Singapore, 199.232.44.81, https://www.bbc.com/travel/article/20231027-a-turkish-secret-hiding-in-plain-sight
+0.13, Singapore, 199.232.44.81, https://www.bbc.com/worklife/article/20231026-the-billion-dollar-brands-spending-big-to-go-from-stale-to-chic
+0.12, Singapore, 199.232.44.81, https://www.bbc.com/future/article/20231026-are-halloween-pumpkins-a-future-superfood
+0.15, Singapore, 199.232.44.81, http://www.bbc.com/worklife
+0.09, Singapore, 199.232.44.81, https://www.bbc.com/future/future-planet
+0.09, Singapore, 199.232.44.81, https://www.bbc.com/future/article/20231027-alien-language-if-we-met-extraterrestrials-could-we-talk-to-them
+0.23, Singapore, 199.232.44.81, http://www.bbc.com/future
+0.1, Singapore, 199.232.44.81, https://www.bbc.com/worklife/article/20231016-the-dark-side-of-touch-screen-tipping
+0.14, Singapore, 199.232.44.81, https://www.bbc.com/culture/article/20231026-the-enfield-poltergeist-why-the-unexplained-mystery-that-shocked-1970s-britain-continues-to-disturb
+0.11, Singapore, 199.232.44.81, http://www.bbc.com/culture
+0.11, Singapore, 199.232.44.81, https://www.bbc.com/travel/article/20231022-gladstones-the-uks-only-residential-library
+0.07, Singapore, 199.232.44.81, https://www.bbc.com/news/uk-england-bristol-67194169
+0.13, Singapore, 199.232.44.81, http://www.bbc.com/news/uk
+0.11, Singapore, 199.232.44.81, https://www.bbc.com/news/world-us-canada-67242752
+0.05, Singapore, 199.232.44.81, https://www.bbc.com/news/uk-67150357
+0.41, Singapore, 199.232.44.81, https://www.bbc.com/news/business-67087673
+0.87, Singapore, 199.232.44.81, https://www.bbc.com/news/business-11428889
+0.05, Singapore, 199.232.44.81, https://www.bbc.com/news/topics/cj8k8ngevpgt
+0.23, Singapore, 199.232.44.81, http://www.bbc.co.uk/worldserviceradio/
+0.47, Singapore, 199.232.44.81, https://www.bbc.com/news/av/business-67197321
+0.07, Singapore, 199.232.44.81, http://www.bbc.co.uk/programmes/p002w5vq
+0.07, Singapore, 199.232.44.81, https://www.bbc.com/news/world-middle-east-67236448
+0.42, Singapore, 199.232.44.81, https://www.bbc.com/news/world-middle-east-67205109
+0.08, Singapore, 199.232.44.81, https://www.bbc.com/news/world-australia-67193789
+0.09, Singapore, 199.232.44.81, https://www.bbc.com/news/world-asia-china-67225496
+0.05, Singapore, 199.232.44.81, https://www.bbc.com/news/67203564
+0.61, Singapore, 199.232.44.81, https://www.bbc.com/news/world-us-canada-67212193
+0.08, Singapore, 199.232.44.81, https://www.bbc.com/news/world-us-canada-67220358
+0.56, Singapore, 199.232.44.81, https://www.bbc.com/news/world-us-canada-67223383
+0.11, Singapore, 199.232.44.81, https://www.bbc.com/sport/football/67088398
+0.32, Singapore, 199.232.44.81, https://www.bbc.com/news/topics/cw9l5jelpl1t
+0.05, Singapore, 199.232.44.81, https://www.bbc.com/news/business-67087678
+0.06, Singapore, 199.232.44.81, https://www.bbc.co.uk/usingthebbc/terms/
+0.4, Singapore, 199.232.44.81, https://www.bbc.co.uk/aboutthebbc
+0.77, Singapore, 199.232.44.81, https://www.bbc.co.uk/usingthebbc/privacy/
+0.32, Singapore, 199.232.44.81, https://www.bbc.com/usingthebbc/privacy/
+0.37, Singapore, 199.232.44.81, https://www.bbc.co.uk/usingthebbc/cookies/
+0.3, Singapore, 199.232.44.81, https://www.bbc.com/usingthebbc/cookies/
+0.31, Singapore, 199.232.44.81, https://www.bbc.co.uk/guidance
+0.36, Singapore, 199.232.44.81, https://www.bbc.co.uk/contact
+0.29, Singapore, 199.232.44.81, https://www.bbc.co.uk/contact/complaints/
+0.11, Singapore, 199.232.44.81, https://www.bbc.co.uk/bbcnewsletter
+0.1, Singapore, 199.232.44.81, https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links
+2.76, Ireland, 52.212.159.195, https://www.bbcglobalnews.com/
+2.81, Canada, 13.107.246.59, https://www.guardian.com.sg/offers/low-prices-locked
+5.14, Canada, 13.107.213.59, https://www.guardian.com.sg/brands/sally-hansen/c/SG64
+0.38, Canada, 13.107.246.59, https://www.guardian.com.sg/brands/moremo/c/M982
+0.34, Canada, 13.107.246.59, https://www.guardian.com.sg/faq/delivery
+0.17, Canada, 13.107.246.59, https://www.guardian.com.sg/login/registration
+12.91, Canada, 13.107.213.59, https://www.guardian.com.sg/offers/live-health-smart
+0.31, Canada, 13.107.246.59, https://www.guardian.com.sg/click-and-collect-service
+2.48, United States, 67.199.248.10, https://bit.ly/43kdfjZ
+0.37, Canada, 13.107.213.59, https://www.guardian.com.sg/faq/exchange&Refunds
+1.43, United States, 67.199.248.11, https://bit.ly/44QZQ2r
+0.99, Singapore, 31.13.68.35, http://www.facebook.com/guardiansg
+0.35, South Korea, 142.250.4.190, https://www.youtube.com/channel/UCsaOnv5Sl2-Z5n-QhWgY38g
+1.65, Singapore, 31.13.68.174, http://www.instagram.com/guardiansg
+4.57, United Kingdom, 149.154.167.99, https://t.me/guardiansingapore
+1.93, Singapore, 23.59.80.122, https://www.tiktok.com/@guardian_sg
+1.26, Canada, 13.107.246.59, https://www.guardian.com.sg/brands/pediasure/c/0065
+1.05, Canada, 13.107.246.59, https://www.guardian.com.sg/health/vitamins-and-supplements/vitamin-d/c/vitamin-d
+1.55, Canada, 13.107.213.59, https://www.guardian.com.sg/health/vitamins-and-supplements/vitamin-b/c/vitamin-b
+0.75, Canada, 13.107.213.59, https://www.guardian.com.sg/health/vitamins-and-supplements/fish-oil-and-omega/c/fish-oil-and-omega
+0.83, Canada, 13.107.246.59, https://www.guardian.com.sg/health/vitamins-and-supplements/glucosamine/c/glucosamine
+1.59, Canada, 13.107.213.59, https://www.guardian.com.sg/health/probiotics/c/probiotics-and-digestive
+0.94, Canada, 13.107.213.59, https://www.guardian.com.sg/bio-oil-skincare-oil-200ml/p/172745
+0.63, Canada, 13.107.246.59, https://www.guardian.com.sg/health/vitamins-and-supplements/c/vitamins-supplements
+0.89, Canada, 13.107.246.59, https://www.guardian.com.sg/brands/colgate/c/0018
+1.01, Canada, 13.107.246.59, https://www.guardian.com.sg/makeup/tools-and-accessories/c/tools-and-accessories
+6.23, Canada, 13.107.213.59, https://www.guardian.com.sg/brands/sensodyne/c/0080
+0.4, Canada, 13.107.246.59, https://www.guardian.com.sg/privacypolicy
+0.59, Canada, 13.107.213.59, https://www.guardian.com.sg/terms-and-conditions
+0.06, Canada, 172.67.21.232, https://mothership.sg/2023/10/audi-singapore-murder-suspect-johor-bahru-jb/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/09/presidential-election-overseas-voters/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/09/pm-lee-g20-2023/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/09/tharman-unifying-figure-neighbourhoods/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/09/chee-soon-juan-tharman-win/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/09/pe2023-4-lessons-walter-woon/
+0.11, Canada, 104.22.35.123, https://mothership.sg/2023/09/tan-kin-lian-selling-campaign-posters/
+0.12, Canada, 172.67.21.232, https://mothership.sg/2023/09/tharman-political-divide/
+0.16, Canada, 172.67.21.232, https://mothership.sg/2023/09/psp-tharman-grc-system/
+0.09, Canada, 104.22.34.123, https://mothership.sg/2023/09/tan-kin-lian-post-pe2023/
+0.08, Canada, 172.67.21.232, https://mothership.sg/2023/09/workers-party-tharman-success/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2023/10/eric-nam-world-tour-singapore/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/uob-presale-ed-sheeran-sold-out/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/sam-smith-orchard-road/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/orchard-road-christmas-light-up-2023/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/10/orchard-road-closure-christmas/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/10/chinese-pianist-84-second-child/
+0.06, Canada, 104.22.34.123, https://mothership.sg/2023/10/g-dragon-drug-allegations/
+0.08, Canada, 172.67.21.232, https://mothership.sg/2023/10/rod-stewart-singapore/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/bhc-chicken-kinex/
+0.11, Canada, 104.22.34.123, https://mothership.sg/2023/10/mcdonalds-pokemon-happy-meal-childhood/
+0.05, Canada, 104.22.35.123, https://mothership.sg/2023/10/lee-sun-kyun-alleged-drug-use/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/zhang-ziyi-wang-feng-divorce/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/pierre-png-andrea-decruz-wedding-anniversary/
+0.11, Canada, 104.22.35.123, https://mothership.sg/2023/10/jam-hsiao-marries-summer-lin/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/ed-sheeran-singapore-national-stadium-2024/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/cantopop-artistes-concerts-marina-bay-sands/
+0.06, Canada, 172.67.21.232, https://mothership.sg/2023/10/haunted-house-halloween/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/ikea-alexandra-photobooth/
+0.07, Canada, 104.22.35.123, https://mothership.sg/2023/10/niall-horan-spore-may-2024/
+0.07, Canada, 104.22.35.123, https://mothership.sg/2023/09/eric-chou-tour-singapore-november/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/10/mayday-concert-2024-singapore/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/09/fall-out-boy-singapore-2023/
+0.11, Canada, 172.67.21.232, https://mothership.sg/2023/10/hjh-maimunah-clementi-mall/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/10/compose-coffee-singapore-suntec/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/texas-chicken-charcoal-halloween/
+0.12, Canada, 172.67.21.232, https://mothership.sg/2023/10/bee-cheng-hiang-bak-kwa-buffet/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/mcdonalds-removing-whipped-cream/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/10/cadbury-cookie/
+0.11, Canada, 172.67.21.232, https://mothership.sg/2023/10/craze-hottis-jewel-changi-airport/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/15-course-omakase-orchard-hana-izakaya/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/underrated-travel-holiday-dbs-posb/
+0.12, Canada, 172.67.21.232, https://mothership.sg/2023/09/4-of-the-best-souvenirs-you-can-get-from-msia-according-to-this-sporeans-mum/
+0.12, Canada, 172.67.21.232, https://mothership.sg/2023/09/disney-cruise-ship-singapore-name/
+0.06, Canada, 104.22.35.123, https://mothership.sg/2023/07/american-couple-walk-11-hours-woodlands-marina-bay-sands/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/07/s22000-luxury-train-ride-from-spore-to-penang-has-plush-cabins-fine-dining-piano-bar/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/07/jetstar-relaunch-direct-flights-okinawa/
+0.07, Canada, 104.22.35.123, https://mothership.sg/category/lifestyle/
+0.09, Canada, 104.22.34.123, https://mothership.sg/category/lifestyle/trending/
+0.1, Canada, 104.22.35.123, https://mothership.sg/category/lifestyle/drama/
+0.08, Canada, 104.22.34.123, https://mothership.sg/category/lifestyle/things-to-eat/
+0.09, Canada, 104.22.34.123, https://mothership.sg/category/lifestyle/things-to-do/
+0.09, Canada, 104.22.34.123, https://mothership.sg/category/lifestyle/stories-of-us/
+0.08, Canada, 172.67.21.232, https://mothership.sg/category/lifestyle/celebrity/
+0.11, Canada, 104.22.35.123, https://mothership.sg/category/lifestyle/heartwarming/
+0.17, Canada, 104.22.35.123, https://mothership.sg/category/spore-angst/
+0.07, Canada, 104.22.34.123, https://mothership.sg/category/lifestyle/imho/
+0.14, Canada, 172.67.21.232, https://mothership.sg/tag/ms-weekend
+0.12, Canada, 104.22.34.123, https://mothership.sg/category/tech
+0.11, Canada, 172.67.21.232, https://mothership.sg/tag/environment
+0.06, Canada, 172.67.21.232, https://mothership.sg/careers/
+0.07, Canada, 104.22.34.123, https://mothership.sg/ahtc-trial/
+0.6, Canada, 104.21.11.224, https://www.cellarbration.com.sg/
+0.06, Canada, 172.64.145.193, http://www.vodien.com
+2.29, United States, 69.65.3.176, http://www.yushengteo.com
+1.35, Canada, 172.67.215.159, http://www.teoyusiang.com
+0.11, Singapore, 111.235.136.111, http://www.ripplewerkz.com
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/10/li-keqiang-singapore-friend/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/10/toh-wei-soong-asian-para-games/
+0.06, Canada, 172.67.21.232, https://mothership.sg/2023/10/singapore-asian-para-games-swimming-2nd-gold/
+0.08, Canada, 172.67.21.232, https://mothership.sg/2023/10/maine-shooting-manhunt/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/10/banned-from-working-singapore/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2023/10/owned-insect-singapore-zoo/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/special-needs-climb-mount-fuji/
+0.08, Canada, 172.67.21.232, https://mothership.sg/2023/10/singapore-circus-fire/
+0.23, Canada, 172.67.21.232, https://mothership.sg/2023/10/firsthand-dyslexia-experience/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/t-project-trans-homeless-shelter/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/10/hate-mood-singapore-hot/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/10/firsthand-pang-koen-table-tennis/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/firsthand-spore-national-dragonboat-captains-put-careers-on-hold-to-train-nearly-every-day-for-asian-games/
+0.09, Canada, 104.22.34.123, https://mothership.sg/2023/10/korean-cult-netflix-singapore-church/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/09/kallang-fields-volleyball-migrants/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/japanese-spitz-break-limps-xiao-bai/
+0.06, Canada, 104.22.35.123, https://mothership.sg/2023/10/crows-attack-orchard-central/
+0.1, Canada, 172.67.21.232, https://mothership.sg/2023/10/are-singaporeans-ready-to-coexist-with-crocodiles/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/new-pilot-programme-ema-sp-group-reduce-energy/
+0.11, Canada, 104.22.34.123, https://mothership.sg/2023/10/mom-heat-stress-measures/
+0.11, Canada, 104.22.35.123, https://mothership.sg/2023/10/prince-william-singapore-earthshot-prize-2023/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2023/10/singapore-studying-nuclear-energy-suitability/
+0.08, Canada, 172.67.21.232, https://mothership.sg/2023/10/bobi-oldest-dog-dies/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/10/grace-fu-geopolitical-inflation-global-climate-action/
+0.07, Canada, 104.22.35.123, https://mothership.sg/2023/10/pap-mps-file-motion-israel-hamas/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/10/pap-mps-file-pqs-israel-gaza/
+0.23, Canada, 104.22.35.123, https://mothership.sg/2023/10/income-tax-free-trade-zone-amendments/
+0.09, Canada, 104.22.34.123, https://mothership.sg/2023/10/activesg-app-no-cancellation/
+0.12, Canada, 104.22.35.123, https://mothership.sg/2023/10/arcade-cash-prizes-restricted/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/residents-happier-receive-mosquito-fines-later/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/hdb-hfe-applications-31-percent-21-days/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/wood-morning-singapore-parliament/
+0.1, Canada, 172.67.21.232, https://mothership.sg/2023/10/300-civil-service-officers-interdicted-since-2013/
+0.09, Canada, 104.22.35.123, https://mothership.sg/2023/10/do-refrigerant-gas-leaks-on-mrt-trains-occur-frequently-do-they-pose-public-health-risks/
+0.89, Singapore, 31.13.68.174, https://www.instagram.com/babelfish.asia/
+1.87, Singapore, 23.59.80.131, https://www.tiktok.com/@babelfish.asia
+0.91, United States, 104.244.42.65, https://twitter.com/babelfishasia
+0.51, Singapore, 31.13.68.35, https://www.facebook.com/babelfish.asia/
+0.37, Canada, 172.67.209.24, https://babelfish.asia
+0.5, Canada, 104.21.58.223, https://babelfish.asia/category/so-long
+0.62, Canada, 172.67.209.24, https://babelfish.asia/category/shorts
+0.48, Canada, 172.67.209.24, https://babelfish.asia/about
+0.17, Canada, 104.21.58.223, https://babelfish.asia/contact
+0.18, Canada, 172.67.209.24, https://babelfish.asia/kaci-beh-interview/
+0.18, Canada, 172.67.209.24, https://babelfish.asia/mark-zubovskyy-tiktok-kapitan/
+0.6, Canada, 104.21.58.223, https://babelfish.asia/full-time-children-china/
+0.27, Canada, 172.67.209.24, https://babelfish.asia/king-of-the-land-offends-arab-viewers/
+0.38, Canada, 104.21.58.223, https://babelfish.asia/lee-cheetong-taoist-priest/
+0.09, Canada, 172.67.209.24, https://babelfish.asia/chanel-yui-teacher-turned-onlyfans/
+0.16, Canada, 104.21.58.223, https://babelfish.asia/chinese-journalist-xinjiang-twitter/
+0.28, Canada, 172.67.209.24, https://babelfish.asia/cat-confined-china-airlines/
+0.15, Canada, 104.21.58.223, https://babelfish.asia/asia-body-shame-culture/
+0.19, Canada, 104.21.58.223, https://babelfish.asia/latest
+0.13, Canada, 104.22.34.123, https://mothership.sg/2023/09/ekors-tail-childrens-book/
+0.08, Canada, 172.67.21.232, https://mothership.sg/2023/09/senior-care-mother-interview/
+0.13, Canada, 104.22.35.123, https://mothership.sg/2023/09/comment-tharman-win-how/
+0.06, Canada, 104.22.35.123, https://mothership.sg/2023/08/comment-presidential-forum-2023/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/08/tan-kin-lian-social-media-posts-youth-votes/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/08/thank-you-speeches-analysis-pe2023/
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/08/comment-malaysia-state-election-green-wave/
+0.11, Canada, 172.67.21.232, https://mothership.sg/2023/08/beauty-world-book-centre-owner-interview/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/09/bougainvillea-flowers-lee-kuan-yew-legacy/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2023/06/agent-for-spore-black-and-white-houses-shares-what-its-like-renting-them/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2021/12/fort-canning-service-reservoir/
+0.11, Canada, 172.67.21.232, https://mothership.sg/2021/11/long-hdb-corridors-sg/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2021/10/tan-hock-seng-close/
+0.11, Canada, 104.22.35.123, https://mothership.sg/2021/10/sgd-history-central-bank/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2021/08/pm-lee-lky-bar-70th-anniversary/
+0.11, Canada, 104.22.35.123, https://mothership.sg/2021/07/ethnic-integration-policy-explainer/
+0.11, Canada, 104.22.35.123, https://mothership.sg/2021/06/shipwrecks-singapore-archaeology/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2021/05/maris-stella-gate-replica/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/10/covid-19-infection-wave-october/
+0.1, Canada, 104.22.34.123, https://mothership.sg/2023/09/covid-test-cough-colleagues/
+0.08, Canada, 104.22.35.123, https://mothership.sg/2023/09/man-send-masseuse-money/
+0.09, Canada, 104.22.34.123, https://mothership.sg/2023/09/halimah-yacob-farewell-speech/
+0.09, Canada, 104.22.34.123, https://mothership.sg/2023/08/no-covid-test-travelling-to-china/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/07/tsai-ing-wen-covid-positive/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/07/test-kits-july-to-september-2023/
+0.07, Canada, 172.67.21.232, https://mothership.sg/2023/06/lawrence-wong-acting-prime-minister/
+0.1, Canada, 104.22.35.123, https://mothership.sg/2023/06/pm-lee-tests-positive-for-covid-19-again-says-its-a-rebound/
+0.11, Canada, 172.67.21.232, https://mothership.sg/author/fiona-tan
+0.1, Canada, 104.22.35.123, https://mothership.sg/author/winnieli
+0.93, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/jb-fatal-stabbing-details/
+0.87, United States, 104.244.42.193, https://twitter.com/share?text=More details emerge on the fatal JB stabbing allegedly involving 2 S'porean men & 1 M'sian woman&url=https://mothership.sg/2023/10/jb-fatal-stabbing-details/
+0.84, United States, 67.199.248.11, https://bit.ly/3qgqzHg
+0.95, United States, 67.199.248.10, https://bit.ly/3KjTj94
+0.57, Canada, 104.26.7.13, https://www.chinapress.com.my/20231028/%e9%9d%92%e5%b9%b4%e5%a4%9c%e5%ba%97%e8%a2%ab%e5%88%ba%e6%ad%bb%e6%a1%88%ef%bd%9c%e7%ba%a2%e9%a2%9c%e7%a5%b8%e6%b0%b4%ef%bc%9f-%e7%bd%91%e4%bc%a0%e5%a5%b3%e5%ab%8c%e7%8a%af%e7%a7%b0%e9%81%ad%e6%ad%bb/
+0.17, Canada, 104.22.78.79, https://johor.sinchew.com.my/?p=5087283
+0.09, Canada, 104.26.7.13, https://www.chinapress.com.my/20231028/%e9%9d%92%e5%b9%b4%e5%a4%9c%e5%ba%97%e8%a2%ab%e5%88%ba%e6%ad%bb%e6%a1%88%ef%bd%9c%e5%84%bf%e5%ad%90%e5%be%88%e5%b0%91%e5%88%b0%e5%a4%9c%e5%ba%97%e6%88%96%e5%a4%9c%e5%bd%92-%e5%ae%b6/
+1.48, United States, 13.226.204.10, https://www.thestar.com.my/news/nation/2023/10/28/johor-cops-arrest-two-singaporeans-local-woman-for-murder
+0.58, Singapore, 31.13.68.35, https://www.facebook.com/photo?fbid=715413833945702&set=a.633665975453822
+0.14, Japan, 152.195.56.196, https://www.zaobao.com.sg/realtime/singapore/story20231028-1446315
+0.07, Japan, 152.195.56.196, https://www.zaobao.com.sg/realtime/singapore/story20231028-1446323
+0.39, Singapore, 31.13.68.35, https://www.facebook.com/MothershipSG
+0.75, United States, 104.244.42.65, https://twitter.com/MothershipSG
+1.37, Singapore, 31.13.68.174, https://instagram.com/mothershipsg
+0.6, United Kingdom, 149.154.167.99, https://t.me/mothershipsg
+0.07, Canada, 172.67.21.232, https://mothership.sg/author/khine-zin-htet
+1.05, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/spore-votes-in-favour-un-resolution/
+0.81, United States, 104.244.42.1, https://twitter.com/share?text=S'pore supports UN resolution calling for humanitarian truce in Gaza, all innocent civilian lives must be protected&url=https://mothership.sg/2023/10/spore-votes-in-favour-un-resolution/
+0.07, United States, 34.111.72.3, https://apnews.com/article/un-resolution-vote-israel-hamas-gaza-truce-7eec00b0e28ef2036636b166b48ca030
+1.12, United States, 108.138.159.77, https://www.mfa.gov.sg/Overseas-Mission/New-York/Mission-Updates/Plenary/2023/10/20231027-2
+0.74, United States, 18.238.152.55, https://www.un.org/en/model-united-nations/how-decisions-are-made-un#:~:text=In%20other%20words%2C%20resolutions%20adopted,adopted%20by%20the%20Security%20Council.
+2.32, United States, 108.138.159.40, https://www.mfa.gov.sg/Overseas-Mission/New-York/Mission-Updates/Plenary/2023/10/20231027
+0.28, Canada, 104.22.34.123, https://mothership.sg/2023/10/lawrence-wong-forward-sg-remarks/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/novena-mrt-fire/
+0.81, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/pm-lee-condolences-li-keqiang/
+0.72, United States, 104.244.42.1, https://twitter.com/share?text=PM Lee sends letter to Chinese premier Li Qiang to express condolences on predecessor Li Keqiang's death&url=https://mothership.sg/2023/10/pm-lee-condolences-li-keqiang/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/li-keqiang-death/
+1.05, United States, 108.138.159.93, https://www.mfa.gov.sg/Newsroom/Press-Statements-Transcripts-and-Photos/2023/10/20231028---Condolence-Letter-Li-Keqiang
+0.57, Singapore, 31.13.68.35, https://www.facebook.com/leehsienloong/posts/pfbid02sDLBTGj8Bq8cePKVXcb9b4gVyfCTyuxf4njFb8zWbXQ9AFkQ8QiHEw15JgDDLQiQl
+1.17, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/peoples-alliance-non-formal-coalition/
+0.2, Japan, 152.195.56.195, https://www.straitstimes.com/singapore/four-opposition-parties-form-coalition-ahead-of-next-ge
+1.87, United States, 104.244.42.65, https://twitter.com/share?text=4 S'pore political parties unite as non-formal coalition 'People's Alliance' for next General Election&url=https://mothership.sg/2023/10/peoples-alliance-non-formal-coalition/
+0.54, Canada, 13.248.243.5, https://reddotunited.sg/latest/f/the-coalition-unifying-sgs-opposition-for-a-stronger-future
+0.11, Canada, 172.67.21.232, https://mothership.sg/2023/04/evolution-not-revolution-pritam/
+0.15, Canada, 172.67.21.232, https://mothership.sg/author/sulaiman-daud
+1.17, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/shanmugam-nee-soon-gaza-fundraiser/
+0.92, United States, 104.244.42.129, https://twitter.com/share?text=S'poreans of different faiths come together to help those suffering in Gaza: Shanmugam&url=https://mothership.sg/2023/10/shanmugam-nee-soon-gaza-fundraiser/
+0.08, Canada, 104.22.34.123, https://mothership.sg/2023/10/red-cross-singapore-israel-gaza-relief/
+0.91, Singapore, 23.59.80.130, https://www.tiktok.com/@mothershipsg?refer=embed
+0.76, Singapore, 23.59.80.136, https://www.tiktok.com/tag/tiktoksg?refer=embed
+1.35, Singapore, 23.59.80.137, https://www.tiktok.com/tag/sgnews?refer=embed
+0.49, Singapore, 23.59.80.130, https://www.tiktok.com/music/original-sound-Mothership-7295013968338897666?refer=embed
+1.4, Singapore, 23.59.80.137, https://www.tiktok.com/tag/israelpalestine?refer=embed
+0.51, Singapore, 23.59.80.131, https://www.tiktok.com/music/original-sound-Mothership-7295009595917929218?refer=embed
+0.07, Canada, 104.22.34.123, https://mothership.sg/2023/10/pm-lee-singapore-israel-palestine-relations/
+0.81, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/woman-rests-her-feet-on-pole/
+0.84, United States, 104.244.42.1, https://twitter.com/share?text=SBS bus driver calls police after woman refuses to put down her feet from grab pole&url=https://mothership.sg/2023/10/woman-rests-her-feet-on-pole/
+0.06, Canada, 172.67.21.232, https://mothership.sg/2019/09/bus-seat-sign-no-putting-up-feet/
+0.55, Singapore, 23.59.80.139, https://www.tiktok.com/@bbshidah?refer=embed
+0.8, Singapore, 23.59.80.131, https://www.tiktok.com/tag/sgbus?refer=embed
+1.02, Singapore, 23.59.80.145, https://www.tiktok.com/tag/kakibusuk?refer=embed
+0.71, Singapore, 23.59.80.131, https://www.tiktok.com/music/Backsound-Lucu-7146542622528505858?refer=embed
+1.06, Singapore, 23.59.80.136, https://www.tiktok.com/@joyang0422?refer=embed
+0.9, Singapore, 23.59.80.145, https://www.tiktok.com/tag/fyp?refer=embed
+0.92, Singapore, 23.59.80.131, https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed
+0.73, Singapore, 23.59.80.136, https://www.tiktok.com/tag/foryoupage?refer=embed
+0.57, Singapore, 23.59.80.139, https://www.tiktok.com/music/original-sound-Joyang0422💜🦂-7184262833092299522?refer=embed
+0.77, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/moh-roll-out-updated-covid-vaccines/
+0.04, Japan, 152.195.56.195, https://www.straitstimes.com/singapore/moh-to-roll-out-updated-covid-19-vaccines-from-oct-30
+0.93, United States, 104.244.42.193, https://twitter.com/share?text=Updated Covid-19 vaccines to be rolled out progressively from Oct. 30, 2023&url=https://mothership.sg/2023/10/moh-roll-out-updated-covid-vaccines/
+0.2, Canada, 172.67.130.124, https://www.vaccine.gov.sg/locations/jtvc/
+0.25, United States, 104.26.3.22, https://book.health.gov.sg/covid
+2.4, United States, 143.204.165.40, https://www.gowhere.gov.sg/vaccine
+0.21, Canada, 104.21.3.80, https://www.vaccine.gov.sg/locations/clinic
+1.08, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/jail-caning-kranji-rapist/
+0.78, United States, 104.244.42.193, https://twitter.com/share?text=Rapist who punched, choked & dragged student into Kranji forested area gets 16 years' jail, 12 strokes of cane&url=https://mothership.sg/2023/10/jail-caning-kranji-rapist/
+0.79, Japan, 152.195.56.195, https://www.straitstimes.com/singapore/courts-crime/rapist-who-dragged-woman-to-forested-area-in-kranji-gets-jail-caning-for-brutal-attack
+0.07, Singapore, 23.50.89.168, https://www.todayonline.com/singapore/jail-cane-rape-stalk-cleaner-student-kranji-punch-2292171
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/teens-steal-motorcycle/
+0.82, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/man-hides-money-around-singapore/
+0.75, United States, 104.244.42.1, https://twitter.com/share?text=Man hides S$50 notes in benches around S'pore, posts location hints on TikTok&url=https://mothership.sg/2023/10/man-hides-money-around-singapore/
+0.8, Singapore, 23.59.80.146, https://www.tiktok.com/@communitybenefactor?_t=8gsQMOXqE7d
+0.73, Singapore, 23.59.80.152, https://www.tiktok.com/tag/fyp%E3%82%B7%E3%82%9Aviral?refer=embed
+0.93, Singapore, 23.59.80.138, https://www.tiktok.com/@communitybenefactor?refer=embed
+0.72, Singapore, 23.59.80.136, https://www.tiktok.com/tag/moneytok?refer=embed
+0.41, Singapore, 23.59.80.147, https://www.tiktok.com/music/original-sound-CommunityBenefactor-7291156707525380865?refer=embed
+0.41, Singapore, 23.59.80.147, https://www.tiktok.com/music/original-sound-CommunityBenefactor-7288645427493833473?refer=embed
+0.13, Canada, 104.22.35.123, https://mothership.sg/category/lifestyle/lifestyle-news
+0.11, Canada, 172.67.21.232, https://mothership.sg/category/lifestyle/hot-deals/
+0.11, Canada, 172.67.21.232, https://mothership.sg/category/lifestyle/travel/
+0.23, Canada, 104.22.34.123, https://ge2020.mothership.sg
+0.11, Canada, 104.22.34.123, https://mothership.sg/category/lifestyle/lifestyle-news/
+0.84, Singapore, 23.59.80.147, https://www.tiktok.com/@mothershipsg
+1.07, Singapore, 31.13.68.174, https://www.instagram.com/mothershipsg
+0.64, United States, 67.199.248.10, https://bit.ly/2KGypoP
+0.33, Canada, 13.107.42.14, https://linkedin.com/company/mothership-sg
+0.69, United States, 35.186.224.25, https://open.spotify.com/show/5VB0CDSYUENS3PW2P7w29l?si=dRXW23dhSCSX7MS3WHD5sg&dl_branch=1
+0.72, Canada, 13.107.213.59, https://sg.linkedin.com/in/martino-tan-40921214
+0.51, United States, 192.0.78.13, https://thetheatreoftheabsurd.wordpress.com/
+0.82, Singapore, 31.13.68.35, https://www.facebook.com/sharer/sharer.php?u=https://mothership.sg/2023/10/man-loanshark-harassment-sumang/
+0.89, United States, 104.244.42.193, https://twitter.com/share?text=Man, 23, arrested for alleged loanshark harassment, Punggol HDB flat splashed with red paint & had 'own money pay money' note&url=https://mothership.sg/2023/10/man-loanshark-harassment-sumang/
+0.09, Canada, 172.67.21.232, https://mothership.sg/2023/10/quiet-ride-grab-driver-xiao-qian/
+0.12, Canada, 104.22.35.123, https://mothership.sg/careers/evening-writer-news-current-affairs
+3.52, United States, 18.161.170.112, https://www.police.gov.sg/media-room/news/20231026_man_arrested_for_loanshark_harassment
+0.09, Canada, 104.22.34.123, https://mothership.sg/careers/finance-executive-2
+0.11, Canada, 172.67.21.232, https://mothership.sg/careers/social-media-executive-nova
+0.14, Canada, 104.22.34.123, https://mothership.sg/careers/social-media-executive-instagram
+0.1, Canada, 172.67.21.232, https://mothership.sg/careers/editorial-intern-firsthand
+0.12, Canada, 104.22.34.123, https://mothership.sg/careers/senior-video-producer-community
+0.13, Canada, 104.22.34.123, https://mothership.sg/careers/editorial-intern-nova
+0.16, Canada, 172.67.21.232, https://mothership.sg/careers/senior-video-producer-news-current-affairs
+0.13, Canada, 104.22.34.123, https://mothership.sg/careers/video-editor-1-year-contract
+0.1, Canada, 104.22.34.123, https://mothership.sg/careers/executive-senior-executive-strategic-communications-brand-stewardship
+0.16, Canada, 104.22.34.123, https://mothership.sg/careers/chief-executive-officer
+0.11, Canada, 104.22.35.123, https://mothership.sg/careers/video-intern-2
+0.2, Canada, 172.67.21.232, https://mothership.sg/careers/business-development-intern-commercial
+0.14, Canada, 104.22.35.123, https://mothership.sg/careers/business-development-executive-commercial
+0.13, Canada, 104.22.35.123, https://mothership.sg/careers/visual-design-intern
+0.16, Canada, 104.22.35.123, https://mothership.sg/careers/writer-current-affairs
+0.12, Canada, 104.22.34.123, https://mothership.sg/careers/writer-features-and-perspectives
+0.11, Canada, 104.22.34.123, https://mothership.sg/careers/assistant-editor-news-current-affairs
+0.12, Canada, 172.67.21.232, https://mothership.sg/careers/writer-environment
+0.34, Singapore, 199.232.44.81, https://www.bbc.com
+0.53, Singapore, 199.232.44.81, https://www.bbc.co.uk/search?d=HOMEPAGE_PS
+0.06, Singapore, 199.232.44.81, https://www.bbc.com/culture/music
+2.85, United Kingdom, 212.58.244.93, https://account.bbc.com/account?lang=en-GB&ptrt=https://www.bbc.co.uk/
+0.06, Singapore, 199.232.44.81, https://www.bbc.co.uk/usingthebbc/terms
+1.22, Singapore, 23.210.96.142, https://downloads.bbc.co.uk/aboutthebbc/reports/pdf/bbcmsa2023.pdf
+2.46, United States, 13.225.47.97, https://canvas-story.bbcrewind.co.uk/radio-2-90s-quiz/
+0.24, Singapore, 199.232.44.81, https://www.bbc.com/usingthebbc/privacy
+0.45, Singapore, 199.232.44.81, https://www.bbc.com/usingthebbc/cookies
+0.04, Singapore, 199.232.44.81, https://www.bbc.co.uk/accessibility
+0.36, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer/guidance
+0.49, Singapore, 199.232.44.81, https://www.bbc.co.uk/news/help-41670342
+0.62, Ireland, 52.213.182.76, https://www.bbcglobalnews.com/home/
+1.13, United Kingdom, 212.58.249.186, https://search.bbc.co.uk/search?scope=all&destination=
+0.68, Singapore, 199.232.44.81, https://www.bbc.co.uk/showsandtours/questions/accessibility-information
+0.8, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer/help/questions/accessibility
+0.59, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer/categories/audio-described/featured
+0.5, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer/categories/signed/featured
+2.22, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer/help/questions/accessibility/accessibility-playing-content
+0.08, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbeebies/grownups/age-and-needs/special-needs#filter
+0.75, Singapore, 199.232.44.81, https://www.bbc.co.uk/sounds/help/questions/about-bbc-sounds-and-our-policies/accessibility-info
+0.43, Singapore, 199.232.44.81, https://www.bbc.co.uk/aboutthebbc/reports/policies
+0.08, Singapore, 199.232.44.81, https://www.bbc.co.uk/foi/publication-scheme/classes/policies-and-procedures
+0.58, Singapore, 199.232.44.81, https://www.bbc.co.uk/foi/publication-scheme/accessibility
+0.88, Singapore, 199.232.44.81, https://www.bbc.co.uk/iplayer/episodes/m000p35p/criptales
+0.46, Singapore, 199.232.44.81, https://www.bbc.co.uk/sounds/search?q=1800%20Seconds%20on%20Autism&suggid=urn%3Abbc%3Aprogrammes%3Ap06sdq0x
+0.43, Singapore, 199.232.44.81, https://www.bbc.co.uk/programmes/p02r6yqw/episodes/downloads
+0.61, Singapore, 199.232.44.81, https://www.bbc.co.uk/programmes/b006m9cb
+0.58, Singapore, 199.232.44.81, https://www.bbc.co.uk/programmes/b006qxww
+0.46, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbeebies/shows/something-special
+0.37, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbeebies/shows/magic-hands
+0.37, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbeebies/shows/pablo
+0.44, Singapore, 199.232.44.81, https://www.bbc.co.uk/opensource/projects/bbc-a11y
+0.27, Singapore, 199.232.44.81, https://www.bbc.co.uk/academy/en/collections/designing-for-screen-readers
+0.46, Singapore, 199.232.44.81, https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/
+0.73, Singapore, 199.232.44.81, https://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility
+1.14, Singapore, 199.232.44.81, https://www.bbc.co.uk/gel/guidelines/how-to-design-accessible-games
+1.64, Singapore, 199.232.44.81, https://www.bbc.co.uk/gel/guidelines/how-to-make-accessible-animated-images
+0.83, Singapore, 199.232.44.81, https://www.bbc.co.uk/gel/guidelines/how-to-design-accessible-email-newsletters
+0.38, United States, 185.199.110.153, https://bbc.github.io/gel/
+0.48, United States, 185.199.111.153, https://bbc.github.io/accessibility-news-and-you/
+0.08, Singapore, 199.232.44.81, https://www.bbc.co.uk/opensource/
+1.41, Singapore, 23.210.96.142, https://downloads.bbc.co.uk/diversity/pdf/BBC_productionaccessguide_spreads.pdf
+2.77, Singapore, 199.232.44.81, https://www.bbc.co.uk/rd/topics/accessibility
+1.1, Singapore, 199.232.44.81, https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/
+0.72, United States, 185.199.110.153, https://bbc.github.io/uxd-cognitive/
+1.05, Singapore, 199.232.44.81, https://www.bbc.co.uk/gel/articles/bbc-for-everyone
+1.22, Singapore, 199.232.44.81, https://www.bbc.com/aboutthebbc/whatwedo/publicservices/accessservices
+0.64, Singapore, 199.232.44.81, https://www.bbc.com/aboutthebbc/reports/annualreport
+1.3, Singapore, 199.232.44.81, https://www.bbc.co.uk/creativediversity/
+0.8, Singapore, 199.232.44.81, https://www.bbc.co.uk/diversity/
+1.23, Singapore, 199.232.44.81, https://www.bbc.co.uk/editorialguidelines/guidance/visually-and-hearing-impaired-audiences
+1.46, United States, 142.251.175.136, https://youtu.be/u2K9-JPIPjg
+1.17, Singapore, 199.232.44.81, https://www.bbc.co.uk/cbeebies/grownups/everyones-welcome
+0.98, Canada, 104.18.11.19, https://www.ofcom.org.uk/research-and-data/multi-sector-research/accessibility-research
+0.53, Singapore, 199.232.44.81, https://www.bbc.co.uk/supplying/working-with-us/accessibility
+0.6, United States, 104.244.42.129, https://twitter.com/bbca11y
+0.78, United States, 104.244.42.1, https://twitter.com/BBCCape
+0.92, United States, 104.244.42.1, https://twitter.com/bbc_ability
+0.7, United States, 104.244.42.193, https://twitter.com/BBCAcademy
+0.62, United States, 104.244.42.1, https://twitter.com/bbcpress
+0.83, United States, 104.244.42.193, https://twitter.com/BBCCareers
+1.09, United States, 104.244.42.65, https://twitter.com/BBCRD
+0.73, United States, 104.244.42.193, https://twitter.com/bbcuxd
+0.66, United Kingdom, 167.172.57.241, https://mcmw.abilitynet.org.uk/
