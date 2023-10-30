@@ -25,9 +25,8 @@ urls = [
         
     for line in lines
     # filter out lines that don't have a dash (i.e., no slug)
-    if
-        '-' in line
-    ]
+    if '-' in line
+]
 
 # flatten list
 words = np.hstack(urls)
