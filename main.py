@@ -17,6 +17,9 @@ class SafeList:
         self.mutex = threading.Lock()
 
     def insert(self, item):
+        """
+        This function inserts an url to the list to be visited in the future.
+        """
         with self.mutex:
             if self.count >= self.limit:
                 return
@@ -24,19 +27,31 @@ class SafeList:
             self.list.append(item)
 
     def batch_insert(self, item_list):
+        """
+        This function inserts a list of urls during initialization.
+        """
         with self.mutex:
             self.count += len(item_list)
             self.list.extend(item_list)
 
     def pop(self):
+        """
+        This function pops the first item in the list and returns them.
+        """
         with self.mutex:
             return self.list.pop(0)
 
     def is_empty(self):
+        """
+        This function returns if the list is empty.
+        """
         return len(self.list) == 0
 
 
 class SafeSet:
+    """
+    This SafeSet class is protected by a mutex, it stores a Set of URLs visited
+    """
     def __init__(self, limit):
         self._set = set()
         self.limit = limit
@@ -44,19 +59,30 @@ class SafeSet:
         self.mutex = threading.Lock()
 
     def batch_insert(self, item_list):
+        """
+        This function inserts a list of urls during initialization.
+        """
         with self.mutex:
             for item in item_list:
                 self.count += 1
                 self._set.add(item)
 
-    def insert(self, item):  
+    def check_and_insert(self, item) -> bool:
+        """
+        This function checks if an url is already present and returns false if it is present.
+        Inserts the item and Returns True if the url is not present.
+        """
         with self.mutex:
-            if self.count >= self.limit:
-                return
+            if self.count >= self.limit or self.contains(item):
+                return False
             self.count += 1
             self._set.add(item)
+            return True
 
     def contains(self, item):
+        """
+        This function checks if an item is in the set.
+        """
         return item in self._set
 
 
@@ -72,23 +98,29 @@ class Site:
 
 
 class Scrapper:
-    def __init__(self, id, safe_set: SafeSet, safe_list: SafeList):
+    """
+    This is a Scrapper class with various functions.
+    """
+    def __init__(self, id, mutex, safe_set: SafeSet, safe_list: SafeList):
         self.safe_set = safe_set
         self.safe_list = safe_list
         self.id = id
+        self.mutex = mutex
 
         with open("scraped.txt", "w") as f:
             f.write("")
 
     def write(self, s: Site):
-        mutex = threading.Lock()
-        with mutex:
+        """
+        This function writes the scraped url and its details into a text file.
+        """
+        with self.mutex:
             with open("scraped.txt", "a") as f:
                 f.write(f"{s.response_time}, {s.geolocation}, {s.ip}, {s.url}\n")
 
     def get_ip(self, url: str):
         """
-        This function returns the ip address of the url
+        This function returns the ip address of the url.
         """
         hostname = urlparse(url).hostname
         ip = socket.gethostbyname(hostname)
@@ -127,7 +159,6 @@ class Scrapper:
         This is the main scrapper logic to be run on threads.
         They share the same SafeList and SafeSet
         """
-
         while not self.safe_list.is_empty():
             url = self.safe_list.pop()
 
@@ -156,8 +187,7 @@ class Scrapper:
                 if parsed.scheme == "" or parsed.scheme is None:
                     continue
 
-                if not self.safe_set.contains(url_string):
-                    self.safe_set.insert(url_string)
+                if self.safe_set.check_and_insert(url_string):
                     self.safe_list.insert(url_string)
 
             time.sleep(2)
@@ -178,8 +208,9 @@ def main():
         safe_set.batch_insert(urls)
 
     # initialize threads and start them
+    shared_lock = threading.Lock()
     for id in range(number_threads):
-        scrapper = Scrapper(id, safe_set, safe_list)
+        scrapper = Scrapper(id, shared_lock, safe_set, safe_list)
         thread = threading.Thread(target=scrapper.run)
         thread_list.append(thread)
 
