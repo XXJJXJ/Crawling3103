@@ -49,12 +49,13 @@ class SafeSet:
                 self.count += 1
                 self._set.add(item)
 
-    def insert(self, item):  
+    def check_and_insert(self, item) -> bool:  
         with self.mutex:
-            if self.count >= self.limit:
-                return
+            if self.count >= self.limit or self.contains(item):
+                return False
             self.count += 1
             self._set.add(item)
+            return True
 
     def contains(self, item):
         return item in self._set
@@ -156,8 +157,7 @@ class Scrapper:
                 if parsed.scheme == "" or parsed.scheme is None:
                     continue
 
-                if not self.safe_set.contains(url_string):
-                    self.safe_set.insert(url_string)
+                if self.safe_set.check_and_insert(url_string):
                     self.safe_list.insert(url_string)
 
             time.sleep(2)
