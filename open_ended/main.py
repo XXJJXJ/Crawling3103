@@ -197,7 +197,7 @@ class Scrapper:
                 continue
 
             self.count += 1 #Only accounts for valid links related to climate crisis
-            if self.count == self.limit: #Reached individual scrapper's limit of 3000
+            if self.count == self.limit: #Reached individual scrapper's limit of 12000
                 break
             '''End Block'''
 
